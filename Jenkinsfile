@@ -1,4 +1,4 @@
-pipeline{
+kpipeline{
     agent any
     stages{
         stage('Print Info'){
@@ -21,4 +21,12 @@ pipeline{
             }
         }
     }
+	post{
+		success{
+			echo 'You can go home'
+		}
+		failure{
+			echo 'Sit and work on'
+		}
+	}
 }
