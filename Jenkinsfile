@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh 'echo "Branch: main"'
                 sh 'echo "Hash: 3e8e19b4f26f10c19cf66c4979dce6565a22a9b9"'
-                sh 'echo "g++ version: Apple clang version 17.0.0 (clang-1700.6.3.2)
+                sh 'echo "g++ version: Apple clang version 17.0.0 (clang-1700.6.3.2)'
 Target: arm64-apple-darwin24.6.0
 Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"'
